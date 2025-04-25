@@ -1,0 +1,7 @@
+matplotlib==3.10.1
+noisereduce==3.0.3
+numpy==2.2.5
+scipy==1.15.2
+sounddevice==0.5.1
+soundfile==0.13.1
+ipykernel
