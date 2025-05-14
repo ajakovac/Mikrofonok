@@ -1,1 +1,3 @@
 mic_env/
+venv/
+__pycache__/
