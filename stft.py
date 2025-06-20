@@ -143,7 +143,7 @@ class STFT:
         if ax is None:
             fig, ax = plt.subplots()
         mask = self.frequencies > 0
-        alldata = data_view(self.data, 'power')[:,mask]
+        alldata = data_view(self.data, view)[:,mask]
         colors = ["white", "blue"]  # White for negative, black for positive
         cmap = mcolors.LinearSegmentedColormap.from_list("custom_cmap", colors)
         X, Y = np.meshgrid(self.times, self.frequencies[mask], indexing="ij")
